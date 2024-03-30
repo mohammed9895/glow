@@ -15,4 +15,14 @@ class Project extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
+    public function donations()
+    {
+        return $this->hasMany(Donation::class);
+    }
+
+    public function getTotalDonations()
+    {
+        return $this->donations->sum('amount') / 1000;
+    }
 }

@@ -7,8 +7,14 @@
     "require": {
         "php": "^8.2",
         "filament/filament": "^3.2",
+        "filament/spatie-laravel-translatable-plugin": "^3.2",
+        "guava/filament-icon-picker": "^2.0",
+        "jkbroot/thawani": "^1.0",
         "laravel/framework": "^11.0",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "livewire/livewire": "^3.4",
+        "spatie/laravel-translatable": "^6.6",
+        "z3d0x/filament-fabricator": "^2.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
